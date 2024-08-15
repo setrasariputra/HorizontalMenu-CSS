@@ -28,3 +28,29 @@ body {
 .horizontal-menu ul li a:hover {
     color: #8dd958;
 }
+.horizontal-menu ul ul {
+    width: 200px;
+    display: none;
+    position: absolute;
+    background-color: #1f2024;
+    border-radius: 0px 0px 5px 5px;
+}
+.horizontal-menu li:hover ul {
+    display: block;
+}
+.horizontal-menu li:hover ul li {
+    display: block;
+    border-bottom: 1px solid #2e2e32;
+}
+.horizontal-menu li:hover ul li:last-child {
+    border-bottom: none;
+}
+.horizontal-menu li:hover a {
+    color: #8dd958;
+}
+.horizontal-menu li:hover ul li a {
+    color: #ffffff;
+}
+.horizontal-menu li:hover ul li a:hover {
+    color: #8dd958;
+}
