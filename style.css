@@ -1,0 +1,20 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.horizontal-menu {
+    background-color: #2c2d33;
+}
+.horizontal-menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.horizontal-menu ul li {
+    display: inline-block;
+}
+.horizontal-menu ul li a {
+    display: block;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
